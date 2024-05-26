@@ -1,0 +1,8 @@
+tasks:
+  - init: |
+      docker run -d -p 8443:8443 -v /workspace:/config/workspace ghcr.io/lescai-teaching/vscode-docker:latest
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 8443
+    onOpen: open-browser
