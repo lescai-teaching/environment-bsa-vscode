@@ -5,6 +5,5 @@
       "vscode": {
         "extensions": ["ms-python.python"]
       }
-    },
-    "forwardPorts": [8443]
+    }
 }
