@@ -13,6 +13,5 @@
       "vscode": {
         "extensions": ["ms-python.python"]
       }
-    },
-    "initializeCommand": "docker system prune -af --volumes || true"
+    }
 }
